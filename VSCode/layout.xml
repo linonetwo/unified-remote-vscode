@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout onlaunch="launch">
   <row>
+    <button text="Cut" color="green" ontap="cut" />
+    <button text="Same" color="orange" ontap="selectNextSame" />
     <button text="Format" ontap="format" />
-
   </row>
   <row>
-    <button text="Copy" ontap="copy" />
-    <button text="Paste" ontap="paste" />
+    <button text="Copy" color="blue" ontap="copy" />
+    <button text="Paste" color="yellow" ontap="paste" />
   </row>
 </layout>
