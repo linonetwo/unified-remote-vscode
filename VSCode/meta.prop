@@ -1,0 +1,6 @@
+meta.name: VSCode
+meta.author: LinOnetwo
+meta.description: A drop-in replacement for touch-bar extensions for VSCode, provide something not in your touch-bar
+meta.hidden: false
+meta.tags: keyboard
+meta.url: https://github.com/linonetwo/unified-remote-vscode
