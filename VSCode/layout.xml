@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout onlaunch="launch">
   <row>
-    <button text="Copy" ontap="copy" />
+    <button text="Format" ontap="format" />
+
   </row>
   <row>
+    <button text="Copy" ontap="copy" />
     <button text="Paste" ontap="paste" />
   </row>
 </layout>

@@ -10,3 +10,8 @@ end
 actions.paste = function ()
 	keyboard.stroke("command", "v");
 end
+
+--@help Press key stroke to format
+actions.format = function ()
+	keyboard.stroke("loption", "lshift", "f");
+end
