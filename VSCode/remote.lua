@@ -1,5 +1,6 @@
 
 local keyboard = libs.keyboard;
+local os = libs.os;
 
 --@help Press key stroke to copy
 actions.copy = function ()
@@ -24,4 +25,15 @@ end
 --@help Press key stroke to selectNextSame
 actions.selectNextSame = function ()
 	keyboard.stroke("lcommand", "d");
+end
+
+--@help Press key stroke to switch tab
+actions.switch = function ()
+	keyboard.stroke("lctrl", "tab");
+end
+
+--@help Press key stroke to switch tab and go immediately
+actions.switchGo = function ()
+	keyboard.stroke("lctrl", "tab");
+	keyboard.press("return");
 end

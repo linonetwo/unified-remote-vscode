@@ -4,6 +4,7 @@
     <button text="Cut" color="green" ontap="cut" />
     <button text="Same" color="orange" ontap="selectNextSame" />
     <button text="Format" ontap="format" />
+    <button text="Switch" ontap="switchGo" onhold="switch" />
   </row>
   <row>
     <button text="Copy" color="blue" ontap="copy" />
