@@ -12,6 +12,11 @@ actions.paste = function ()
 	keyboard.stroke("lcommand", "v");
 end
 
+--@help Press key stroke to revert
+actions.revert = function ()
+	keyboard.stroke("lcommand", "z");
+end
+
 --@help Press key stroke to cut
 actions.cut = function ()
 	keyboard.stroke("lcommand", "x");
