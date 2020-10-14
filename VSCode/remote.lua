@@ -12,6 +12,11 @@ actions.paste = function ()
 	keyboard.stroke("lcommand", "v");
 end
 
+--@help Press key stroke to selectAll
+actions.selectAll = function ()
+	keyboard.stroke("lcommand", "a");
+end
+
 --@help Press key stroke to revert
 actions.revert = function ()
 	keyboard.stroke("lcommand", "z");

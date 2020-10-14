@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout onlaunch="launch">
   <row>
+    <button text="All" color="red" ontap="selectAll" />
     <button text="Switch" ontap="switchGo" onhold="switch" />
     <button text="Revert" color="blue" ontap="revert" />
   </row>
