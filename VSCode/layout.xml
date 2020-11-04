@@ -2,6 +2,7 @@
 <layout onlaunch="launch">
   <row>
     <button text="Open" image="icon.png" ontap="launch" />
+    <button text="CallTree" color="yellow" ontap="callTree" />
   </row>
   <row>
     <button text="All" color="red" ontap="selectAll" />

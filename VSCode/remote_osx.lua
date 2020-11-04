@@ -47,3 +47,6 @@ actions.switch = function()
 		keyboard.up("lctrl", "tab")
     keyboard.press("return");
 end
+
+-- @help Press key stroke to selectNextSame
+actions.callTree = function() keyboard.stroke("loption", "lshift", "h"); end
